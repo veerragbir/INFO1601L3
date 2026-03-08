@@ -22,12 +22,11 @@
         margin-right: auto;
       }
 
-
       section {
-		/* border without direction adds border to all sides */
+        /* border without direction adds border to all sides */
         border-bottom: 5px solid black;
-		height: 40vh;
-		overflow-y:scroll;
+        height: 40vh;
+        overflow-y: scroll;
       }
 
       #section1 {
@@ -57,58 +56,76 @@
           rgba(29, 211, 253, 1) 50%,
           rgba(252, 176, 69, 1) 100%
         );
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
-	  p:hover{
-		outline: 2px double red;
-	  }
+      div {
+        width: 400px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        background-color: white;
+        color: black;
+        text-align: center;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+        padding: 5px;
+      }
+
+      div > h2 {
+        text-decoration: none;
+      }
+
+      p:hover {
+        outline: 2px double red;
+      }
     </style>
   </head>
   <body>
     <section id="section1">
       <h1>Sample Poem</h1>
 
-    <h2>Why Won't Lecturers Be More Lively?</h2>
+      <h2>Why Won't Lecturers Be More Lively?</h2>
 
-    <p>
-        <span class="bold">Why</span> won't lecturers be more lively?
-        This is something I don't take lightly.
-        Come to class and read some slides,
-        And then you wonder why students hide.
-    </p>
+      <p>
+        <span class="bold">Why</span> won't lecturers be more lively? This is
+        something I don't take lightly. Come to class and read some slides, And
+        then you wonder why students hide.
+      </p>
 
-    <p>
-        <span class="bold">Why</span> won't lecturers be more engaging?
-        It's something that is quite enraging.
-        You read some notes and then I say,
+      <p>
+        <span class="bold">Why</span> won't lecturers be more engaging? It's
+        something that is quite enraging. You read some notes and then I say,
         "Why do I even come to class today?"
-    </p>
+      </p>
 
-    <p>
-        <span class="bold">Why</span> won't lecturers be more fun?
-        That's all it takes to be #1.
-        I don't duck class, I want to pass,
-        But my tiktok brain just can't last.
-    </p>
+      <p>
+        <span class="bold">Why</span> won't lecturers be more fun? That's all it
+        takes to be #1. I don't duck class, I want to pass, But my tiktok brain
+        just can't last.
+      </p>
 
-    <p>
-        <span class="bold">Why</span> won't lecturers be more exciting?
-        Is it that? Or am I just not inviting?
-        Are these just excuses for lax in attention?
-        Maybe I just need some gumption.
-    </p>
+      <p>
+        <span class="bold">Why</span> won't lecturers be more exciting? Is it
+        that? Or am I just not inviting? Are these just excuses for lax in
+        attention? Maybe I just need some gumption.
+      </p>
 
-    <p>
-        <span class="bold">Why</span> won't I just do what's right?
-        Come to labs and study at night.
-        No more excuses, no more slacking,
-        Just get to work and stop skylarking.
-    </p>
-</section>
-      <!-- HTML comment -->
+      <p>
+        <span class="bold">Why</span> won't I just do what's right? Come to labs
+        and study at night. No more excuses, no more slacking, Just get to work
+        and stop skylarking.
+      </p>
     </section>
+    <!-- HTML comment -->
     <section id="section2">
-      <h1>Section 2</h1>
+      <div>
+        <h2>My Div</h2>
+      </div>
     </section>
     <script src="script.js"></script>
   </body>
